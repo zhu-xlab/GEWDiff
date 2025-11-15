@@ -11,8 +11,8 @@ GEWDiff integrates wavelet-domain frequency decomposition and geometric-aware at
 ---
 ## 📰 News
 - **2025.11** 🚀 Our paper has been accepted to **AAAI 2026**!
-- **2025.11** 📄 Preprint released on [arXiv](https://arxiv.org/abs/2511.07103)
-- **2025.07** 🔥 Code and models are publicly available
+- **2025.11** 📄 Preprint released on [arXiv](https://arxiv.org/abs/2511.07103). Checkpoint and test data released on [LRZ]([https://arxiv.org/abs/2511.07103](https://syncandshare.lrz.de/getlink/fiGcpRBVAU7PRFtyfQjh8r/checkpoints))
+- **2025.07** 🔥 Code and models are publicly available. 
   
 ## 🛠️ Environment Setup
 
@@ -115,7 +115,7 @@ accelerate launch --multi_gpu --num_processes 4 --mixed_precision=fp16 GEWDiff/t
 
 ## 🧪 Testing with Pretrained Checkpoint
 
-1. Download a pretrained checkpoint (e.g., `epoch_200.pth`) and place it in `checkpoints/`.
+1. Download a pretrained checkpoint (e.g., `epoch_200.pth`) and place it in `checkpoints/`. Checkpoint and test data released on [LRZ]([https://arxiv.org/abs/2511.07103](https://syncandshare.lrz.de/getlink/fiGcpRBVAU7PRFtyfQjh8r/checkpoints)).
 
 2. Run the test script:
 
