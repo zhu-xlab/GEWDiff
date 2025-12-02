@@ -10,7 +10,7 @@ jobs:
       - name: Generate QR Code
         run: |
           sudo apt-get install qrencode
-          qrencode -o qrcode.png "https://github.com/username/repo-name"
+          qrencode -o qrcode.png "https://github.com/zhu-xlab/GEWDiff"
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
